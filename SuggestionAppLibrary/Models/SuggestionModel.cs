@@ -19,6 +19,5 @@ public class SuggestionModel
     public string OwnerNotes { get; set; }
     public bool ApprovedForRelease { get; set; } = false;
     public bool Archived { get; set; } = false;
-    public bool Refected { get; set; } = false;
-
+    public bool Rejected { get; set; } = false;
 }
