@@ -17,7 +17,7 @@ public class MongoCategoryData : ICategoryData
         _categories = db.CategoryCollection;
     }
 
-    public async Task<List<CategoryModel>> GeetAllCategories()
+    public async Task<List<CategoryModel>> GetAllCategories()
     {
         var output = _cache.Get<List<CategoryModel>>(CacheName);
         if (output is null)

@@ -8,5 +8,5 @@ namespace SuggestionAppLibrary.DataAccess;
 public interface ICategoryData
 {
     Task CreateCategory(CategoryModel category);
-    Task<List<CategoryModel>> GeetAllCategories();
+    Task<List<CategoryModel>> GetAllCategories();
 }
